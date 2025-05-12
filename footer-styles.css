@@ -1,0 +1,35 @@
+/* 
+ * Стили для подвала сайта
+ */
+
+footer {
+    background-color: #1c1c1c;
+    color: #fff;
+    padding: 20px 0;
+    margin-top: 50px;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-logo {
+    margin-bottom: 15px;
+}
+
+.footer-logo-img {
+    height: 140px;
+    width: auto;
+    margin-bottom: 15px;
+}
+
+/* Адаптивность для мобильных устройств */
+@media (max-width: 767px) {
+    .footer-logo-img {
+        height: 100px;
+    }
+}
