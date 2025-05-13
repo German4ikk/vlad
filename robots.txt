@@ -1,6 +1,6 @@
 User-agent: *
 Allow: /
-Sitemap: https://repair-master.ee/sitemap.xml
+Sitemap: https://vlad-one.vercel.app/sitemap.xml
 
 # Запрещаем индексацию служебных файлов
 Disallow: /css/
