@@ -1,0 +1,175 @@
+/* 
+ * Специальные стили для мобильной версии сайта
+ * Этот файл содержит только стили для мобильных устройств
+ */
+
+@media (max-width: 767px) {
+    /* Стили для верхней панели с контактами */
+    #top-bar {
+        background-color: #1e272e !important;
+        padding: 10px 0 !important;
+    }
+
+    #top-bar .top-bar-content .inner {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        justify-content: center !important;
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+
+    #top-bar .top-bar-content .inner span.content {
+        margin: 5px 0 !important;
+        font-size: 14px !important;
+        display: flex !important;
+        align-items: center !important;
+    }
+
+    #top-bar .top-bar-content .inner span.content i {
+        margin-right: 8px !important;
+    }
+
+    /* Скрываем социальные иконки в мобильной версии */
+    #top-bar .top-bar-socials {
+        display: none !important;
+    }
+
+    /* Исправление для логотипа */
+    #site-logo {
+        padding: 15px 0 !important;
+    }
+
+    /* Исправление пустого пространства между шапкой и контентом */
+    #site-header-wrap {
+        position: relative !important;
+        background-color: #1e272e !important;
+        margin-bottom: 0 !important;
+    }
+    
+    /* Полное удаление белого пробела */
+    #page, #wrapper, body, html {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    
+    /* Убираем все возможные отступы в контейнерах */
+    .container, .row, .col-md-12, #inner-content, #site-content, #content-wrap {
+        margin-top: 0 !important;
+        padding-top: 0 !important;
+    }
+
+    /* Убираем зеленое пространство */
+    div[style*="background-color: green"], 
+    div[style*="background-color: #00ff00"],
+    div[style*="background: green"],
+    div[style*="background: #00ff00"] {
+        display: none !important;
+        height: 0 !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
+    /* Исправление для слайдера - убираем отступы сверху */
+    #rev-slider, .hero-slider, .slider-item, #rev_slider_1_1_wrapper, #rev_slider_1_1 {
+        margin-top: 0 !important;
+        padding-top: 0 !important;
+    }
+    
+    /* Удаление белого пробела перед слайдером */
+    #home, .rev_slider_wrapper, .fullwidthbanner-container {
+        margin-top: 0 !important;
+        padding-top: 0 !important;
+    }
+    
+    /* Принудительное удаление белого пробела */
+    .themesflat-spacer {
+        display: none !important;
+        height: 0 !important;
+    }
+    
+    /* Убираем любые белые области */
+    div[style*="background-color: white"],
+    div[style*="background-color: #ffffff"],
+    div[style*="background: white"],
+    div[style*="background: #ffffff"] {
+        display: none !important;
+        height: 0 !important;
+    }
+
+    /* Исправление для основного контента */
+    #main-content {
+        margin-top: 0 !important;
+    }
+
+    /* Улучшение мобильного меню */
+    .mobile-button {
+        right: 15px !important;
+        top: 50% !important;
+        transform: translateY(-50%) !important;
+    }
+
+    /* Исправление для контейнеров */
+    .container {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+
+    /* Улучшение отображения слайдера на мобильных устройствах */
+    .slider-content {
+        padding: 30px 15px !important;
+        text-align: center !important;
+    }
+
+    .slider-content .title {
+        font-size: 24px !important;
+        line-height: 1.3 !important;
+    }
+
+    .slider-content .subtitle {
+        font-size: 16px !important;
+    }
+
+    .slider-content .text {
+        font-size: 14px !important;
+    }
+
+    /* Исправление для кнопок */
+    .themesflat-button {
+        padding: 10px 15px !important;
+        font-size: 14px !important;
+    }
+    
+    /* Исправление белого пробела в подвале */
+    footer {
+        margin-top: 0 !important;
+        padding-top: 0 !important;
+        background-color: #1e272e !important;
+    }
+    
+    /* Удаление пробела перед подвалом */
+    section + div, 
+    section + footer, 
+    #contacts + div, 
+    #contacts + footer,
+    .row-request + div,
+    .row-request + footer {
+        margin-top: 0 !important;
+        padding-top: 0 !important;
+    }
+    
+    /* Исправление для всех секций перед футером */
+    section:last-of-type {
+        margin-bottom: 0 !important;
+        padding-bottom: 0 !important;
+    }
+    
+    /* Удаление белого пробела в нижней части страницы */
+    .site-footer, 
+    #footer, 
+    .footer-widgets, 
+    .footer-content {
+        margin-top: 0 !important;
+        padding-top: 0 !important;
+    }
+}
