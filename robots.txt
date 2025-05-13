@@ -1,9 +1,0 @@
-User-agent: *
-Allow: /
-Sitemap: https://repair-master.ee/sitemap.xml
-
-# Запрещаем индексацию служебных файлов
-Disallow: /css/
-Disallow: /js/
-Disallow: /*.js$
-Disallow: /*.css$
